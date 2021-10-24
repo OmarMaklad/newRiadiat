@@ -34,5 +34,8 @@ class MyColors {
   static const Color  opposedColors = Color(0xff505050);
   static const Color  favoriteColors = Color(0xff808080);
 //  -----------------------------------------------------------------
-
+  static const Color bgentrePreneurs = Color(0xffF8F8F8);
+  static const Color bgConsultation = Color(0xffF2631C);
+  static const Color bgNetwork = Color(0xffFFBC00);
+  static const Color bgService = Color(0xff00A5C9);
 }
