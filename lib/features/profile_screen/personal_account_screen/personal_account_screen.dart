@@ -154,7 +154,7 @@ class PersonalAccountScreen extends StatelessWidget {
                     ),
                     child: Row(
                       children: [
-                        Icon(MdiIcons.cardOutline),
+                        Icon(MdiIcons.creditCardOutline),
                         SizedBox(
                           width: 6.0.w,
                         ),
@@ -241,7 +241,7 @@ class PersonalAccountScreen extends StatelessWidget {
                     ),
                     child: Row(
                       children: [
-                        Icon(MdiIcons.notificationClearAll),
+                        Icon(MdiIcons.bellOutline),
                         SizedBox(
                           width: 6.0.w,
                         ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:riadiat/constants/my_color.dart';
 import 'package:riadiat/constants/strings.dart';
 import 'package:riadiat/features/main_screen/widget/cudtom_mytraining.dart';
@@ -39,7 +40,7 @@ class HomeScreen extends StatelessWidget {
                   Navigator.pushNamed(context, notificationScreen);
                 },
                 iconsRight: Icon(
-                  Icons.wallpaper,
+                  MdiIcons.bellOutline,
                   size: 30,
                 ),
                 hintText: "ابحثى عن دورات تدريبيه رائدات اعمال",

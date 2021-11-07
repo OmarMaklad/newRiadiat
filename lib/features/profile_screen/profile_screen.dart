@@ -273,7 +273,7 @@ class ProfileScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(
-                        MdiIcons.logout,
+                        MdiIcons.power,
                         color: MyColors.logoutIcon,
                       ),
                       SizedBox(
