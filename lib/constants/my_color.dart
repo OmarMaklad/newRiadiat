@@ -23,6 +23,8 @@ class MyColors {
   static const Color bgRangContainer = Color(0xffFBB439);
   static const Color textName = Color(0xff505050);
   static const Color subscribeContainer = Color(0xff003C43);
+  static const Color bgProfiles = Color(0xffE5E5E5);
+  static const Color logoutIcon = Color(0xffEB2828);
 //=======
 //  static const Color hintText = Color(0xffD1D1D1);
 //  static const Color  bgSeeAll = Color(0xFFe4f7f7);
@@ -38,4 +40,8 @@ class MyColors {
   static const Color bgConsultation = Color(0xffF2631C);
   static const Color bgNetwork = Color(0xffFFBC00);
   static const Color bgService = Color(0xff00A5C9);
+  static const Color bgFacebook = Color(0xff3C5A99);
+  static const Color dotIndicator = Color(0xffD8D8D8);
+  static const Color bgNotifications = Color(0xffE8F8F7);
+  static const Color borderUnderChat = Color(0xffF0F0FB);
 }

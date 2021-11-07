@@ -20,45 +20,161 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9339bde1-175b-44ce-b867-232c32bb7008" name="Default Changelist" comment="up">
-      <change afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/lang/ar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/lang/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app_route.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bottom_navigation_bar/bottom_navigation_bar.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bottom_navigation_bar/cubit/layout_cubit.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bottom_navigation_bar/cubit/layout_states.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/global_academy_screen/globale_academy_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/main_screen/home_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/main_screen/widget/cudtom_mytraining.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/main_screen/widget/custom_banner.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/main_screen/widget/custom_carousel.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/main_screen/widget/custom_entrepreneurs.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/main_screen/widget/custom_gird_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/main_screen/widget/custom_join_network.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/main_screen/widget/custom_my_session.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/main_screen/widget/custom_scroll_acadmy.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/main_screen/widget/custom_search_form.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/message_screen/message_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/my_course_screen/my_course_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/my_course_screen/widget/certified_tab.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/my_course_screen/widget/custom_button_see_cert.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/my_course_screen/widget/custom_title_meeting.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/my_course_screen/widget/favorite_tab.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/my_course_screen/widget/meeting_tab.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/my_course_screen/widget/my_course_tab.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/private_academy_screen/private_academy_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/profile_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/widgets/custom_button_mean_color.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/widgets/custom_title_row.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/image_not1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/image_not2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/splash_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/welcome1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/welcome2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/welcome3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cubit_glabel/cubit_images.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cubit_glabel/state_images.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/auth/designation_password_screen/designation_password_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/auth/forget_password_screen/forget_password_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/auth/sign_up/singup.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/auth/verification_code_screen/verification_code_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/auth/widget/cusotm_footer_login.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/auth/widget/custom_or_container.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/auth/widget/custom_social_login.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/message_screen/chat_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/message_screen/widget/custom_search_message.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/message_screen/widget/new_chat.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/message_screen/widget/rooming_chat.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/notification_setting/notification_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/notification_setting/notification_setting.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/on_boarding_screen/modals/onBoard_modals.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/on_boarding_screen/on_boarding_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/account_setting_screen/account_setting_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/adding_new_card_screen/adding_new_card_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/cancel_subscribe_screen/cancel_subscribe_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/change_email_screen/change_email_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/delete_account_screen/delete_account_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/download_screen/download_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/edit_or_delete_card_screen/edit_or_delete_card_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/edit_or_delete_card_screen/edit_or_delete_code_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/favorite_screen/favorite_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/payment_card_screen/payment_card_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/personal_account_screen/personal_account_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/personal_data_edit/personal_data_edit.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/profile_screen/subscribe_screen/subscribe_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/search_screen/custom_academy_search_screen/custom_academy_search_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/search_screen/custom_all_search_screen/custom_all_search_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/search_screen/custom_training_search_screen/custom_training_search_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/search_screen/search_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/search_screen/widget/custom_container_not_result.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/specialized_academy/specialized_academy.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/widgets/custom_large_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/widgets/custom_search_header.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/widgets/custom_text_form_field.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/debug_android_application.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/d43e685797a63d57643a1ee55c5df499/outputs.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/FontManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/FontManifest.json.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/NOTICES.Z.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/NOTICES.Z.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/external_libs_dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/external_libs_dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/FontManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/FontManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/NOTICES.Z" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/NOTICES.Z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/1TqXSJsvsVWqXCwaRX0U4jhCsg4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/1TqXSJsvsVWqXCwaRX0U4jhCsg4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/7siGqTSADZy9mjraTJq8dsnUEvE=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/7siGqTSADZy9mjraTJq8dsnUEvE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/9dopMdCssN7PLrqXdig0YBetAHI=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/9dopMdCssN7PLrqXdig0YBetAHI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/E25+tHNURg0TnR1Afy1+9amAE9o=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/E25+tHNURg0TnR1Afy1+9amAE9o=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/F1iR+SMQEBZQGQGlmdw+3dYypfs=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/F1iR+SMQEBZQGQGlmdw+3dYypfs=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/HMG8HMLltMabChOHsXjpC7WDuck=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/HMG8HMLltMabChOHsXjpC7WDuck=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/MOsdX7VnW+FhCuNyuXQLlXSHk9U=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/MOsdX7VnW+FhCuNyuXQLlXSHk9U=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/PFN9ymHyPJlkH2olZwP31f7XaTo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/PFN9ymHyPJlkH2olZwP31f7XaTo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q8x7efOTAbR7ajns7Q174U0MWVk=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q8x7efOTAbR7ajns7Q174U0MWVk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Y3drvKqPDGcN9o2c+_7R5UiGylI=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Y3drvKqPDGcN9o2c+_7R5UiGylI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZZ1Yg8xqHPvIA4hcBZxkMQ1tNr4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZZ1Yg8xqHPvIA4hcBZxkMQ1tNr4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/_EOApqTjlCwPKF8CTquRSnlcsKU=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/_EOApqTjlCwPKF8CTquRSnlcsKU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/_GaLZpglaXA0z9JcskhoFy541_I=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/_GaLZpglaXA0z9JcskhoFy541_I=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/j1046BhQSZaFciGkzTbHGhnrMLg=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/j1046BhQSZaFciGkzTbHGhnrMLg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/kBpOmB6FGaJv+4b42+A33i2_du4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/kBpOmB6FGaJv+4b42+A33i2_du4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/leFEJxL+bLAaBkQBdX0Hrk3Eq9E=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/leFEJxL+bLAaBkQBdX0Hrk3Eq9E=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOhT_nXxE4C2cUZJZURI2D8Oc9Y=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/mOhT_nXxE4C2cUZJZURI2D8Oc9Y=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/nxG_vM+LgDj_m1C6QWBYQ2_83J4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/nxG_vM+LgDj_m1C6QWBYQ2_83J4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/1TqXSJsvsVWqXCwaRX0U4jhCsg4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/1TqXSJsvsVWqXCwaRX0U4jhCsg4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/7siGqTSADZy9mjraTJq8dsnUEvE=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/7siGqTSADZy9mjraTJq8dsnUEvE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/9dopMdCssN7PLrqXdig0YBetAHI=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/9dopMdCssN7PLrqXdig0YBetAHI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/E25+tHNURg0TnR1Afy1+9amAE9o=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/E25+tHNURg0TnR1Afy1+9amAE9o=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/F1iR+SMQEBZQGQGlmdw+3dYypfs=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/F1iR+SMQEBZQGQGlmdw+3dYypfs=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/HMG8HMLltMabChOHsXjpC7WDuck=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/HMG8HMLltMabChOHsXjpC7WDuck=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/MOsdX7VnW+FhCuNyuXQLlXSHk9U=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/MOsdX7VnW+FhCuNyuXQLlXSHk9U=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/PFN9ymHyPJlkH2olZwP31f7XaTo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/PFN9ymHyPJlkH2olZwP31f7XaTo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q8x7efOTAbR7ajns7Q174U0MWVk=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q8x7efOTAbR7ajns7Q174U0MWVk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Y3drvKqPDGcN9o2c+_7R5UiGylI=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Y3drvKqPDGcN9o2c+_7R5UiGylI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ZZ1Yg8xqHPvIA4hcBZxkMQ1tNr4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ZZ1Yg8xqHPvIA4hcBZxkMQ1tNr4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_EOApqTjlCwPKF8CTquRSnlcsKU=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_EOApqTjlCwPKF8CTquRSnlcsKU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_GaLZpglaXA0z9JcskhoFy541_I=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_GaLZpglaXA0z9JcskhoFy541_I=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/j1046BhQSZaFciGkzTbHGhnrMLg=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/j1046BhQSZaFciGkzTbHGhnrMLg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kBpOmB6FGaJv+4b42+A33i2_du4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kBpOmB6FGaJv+4b42+A33i2_du4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/leFEJxL+bLAaBkQBdX0Hrk3Eq9E=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/leFEJxL+bLAaBkQBdX0Hrk3Eq9E=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOhT_nXxE4C2cUZJZURI2D8Oc9Y=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mOhT_nXxE4C2cUZJZURI2D8Oc9Y=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/nxG_vM+LgDj_m1C6QWBYQ2_83J4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/nxG_vM+LgDj_m1C6QWBYQ2_83J4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/io/flutter/plugins/GeneratedPluginRegistrant.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/io/flutter/plugins/GeneratedPluginRegistrant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/FontManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/FontManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/NOTICES.Z" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/NOTICES.Z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/project_dex_archive/debug/out/5c1ff1b511dac23ef8e141299e55ec10b7e58b241cdaca760f8e4be555c1279a_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/project_dex_archive/debug/out/5c1ff1b511dac23ef8e141299e55ec10b7e58b241cdaca760f8e4be555c1279a_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/project_dex_archive/debug/out/5c1ff1b511dac23ef8e141299e55ec10b7e58b241cdaca760f8e4be555c1279a_2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/project_dex_archive/debug/out/5c1ff1b511dac23ef8e141299e55ec10b7e58b241cdaca760f8e4be555c1279a_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/project_dex_archive/debug/out/io/flutter/plugins/GeneratedPluginRegistrant.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/project_dex_archive/debug/out/io/flutter/plugins/GeneratedPluginRegistrant.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app_route.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app_route.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/constants/my_color.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/my_color.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/constants/strings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/strings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/auth/login/view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/auth/login/view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/main_screen/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/main_screen/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/main_screen/widget/custom_search_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/main_screen/widget/custom_search_form.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/message_screen/message_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/message_screen/message_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/my_course_screen/my_course_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/my_course_screen/my_course_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/profile_screen/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/profile_screen/profile_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
@@ -104,8 +220,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/features/main_screen" />
-      <recent name="J:\newRiadiat" />
+      <recent name="$PROJECT_DIR$/lib/features/auth" />
+      <recent name="$PROJECT_DIR$/lib/features/search_screen/custom_training_search_screen" />
+      <recent name="$PROJECT_DIR$/lib/features/search_screen/custom_all_search_screen" />
+      <recent name="$PROJECT_DIR$/lib/features/search_screen/custom_academy_search_screen" />
+      <recent name="$PROJECT_DIR$/lib/features/profile_screen/subscribe_screen" />
     </key>
   </component>
   <component name="RunManager">
@@ -172,10 +291,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="154" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1634489532527" />
-    <state x="642" y="272" width="640" height="569" key="#main.dart" timestamp="1634858311607">
+    <state x="642" y="272" width="640" height="569" key="#main.dart" timestamp="1636243887928">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="642" y="272" width="640" height="569" key="#main.dart/0.30.1920.1050@0.30.1920.1050" timestamp="1634858311607" />
+    <state x="642" y="272" width="640" height="569" key="#main.dart/0.30.1920.1050@0.30.1920.1050" timestamp="1636243887928" />
+    <state x="773" y="303" width="364" height="506" key="AndroidProcessChooserDialog" timestamp="1636118888863">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="773" y="303" width="364" height="506" key="AndroidProcessChooserDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1636118888863" />
     <state x="100" y="130" width="1720" height="850" key="DiffContextDialog" timestamp="1634667800672">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -184,22 +307,22 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="511" y="154" width="424" height="487" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1634490327517" />
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1634861733015">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1636245165021">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1634861733015" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1634861733014">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1636245165021" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1636245165019">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1634861733014" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1634861733014">
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1636245165019" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1636245165018">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1634861733014" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1634861733015">
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1636245165018" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1636245165020">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1634861733015" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1636245165020" />
     <state x="232" y="30" width="992" height="733" key="SettingsEditor" timestamp="1634490329149">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -209,6 +332,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1634489874678" />
+    <state x="624" y="254" width="672" height="677" key="run.anything.popup" timestamp="1635432963129">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="624" y="254" width="672" height="677" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1635432963129" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -232,6 +359,51 @@
           <url>file://$PROJECT_DIR$/lib/features/my_course_screen/widget/custom_button_see_cert.dart</url>
           <line>2</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/features/my_course_screen/my_course_screen.dart</url>
+          <line>72</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/features/profile_screen/personal_account_screen/personal_account_screen.dart</url>
+          <line>10</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/features/profile_screen/subscribe_screen/subscribe_screen.dart</url>
+          <line>32</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/features/profile_screen/favorite_screen/favorite_screen.dart</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/features/profile_screen/download_screen/download_screen.dart</url>
+          <line>62</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/features/auth/verification_code_screen/verification_code_screen.dart</url>
+          <line>40</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/features/on_boarding_screen/modals/onBoard_modals.dart</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/features/main_screen/home_screen.dart</url>
+          <line>30</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/features/main_screen/home_screen.dart</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

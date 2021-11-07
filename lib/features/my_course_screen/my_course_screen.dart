@@ -49,31 +49,21 @@ class _MyCourseScreenState extends State<MyCourseScreen>
                 isScrollable: true,
                 controller: _tabController,
                 indicatorColor: MyColors.meanColor,
+                labelColor: MyColors.meanColor,
+                unselectedLabelColor: Colors.grey,
                 labelPadding: EdgeInsets.only(left: 28, right: 28),
                 tabs: [
                   Text(
                     'الدورات',
-                    style: TextStyle(
-                      color: MyColors.meanColor,
-                    ),
                   ),
                   Text(
                     'اللقاءات',
-                    style: TextStyle(
-                      color: MyColors.meanColor,
-                    ),
                   ),
                   Text(
                     'المفضله',
-                    style: TextStyle(
-                      color: MyColors.meanColor,
-                    ),
                   ),
                   Text(
                     'الشهادات',
-                    style: TextStyle(
-                      color: MyColors.meanColor,
-                    ),
                   ),
                 ],
               ),

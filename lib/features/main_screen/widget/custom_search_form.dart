@@ -6,9 +6,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class SearchFormField extends StatelessWidget {
   final Function()? onPressSearch;
   final Function(String)? onChange;
+  final String? hintText;
   SearchFormField({
     this.onPressSearch,
     this.onChange,
+    this.hintText,
   });
   @override
   Widget build(BuildContext context) {
@@ -21,7 +23,7 @@ class SearchFormField extends StatelessWidget {
             icon: Icon(Icons.search_outlined),
             onPressed: onPressSearch,
           ),
-          hintText: 'ابحثى عن دورات تدريبيه رائدات اعمال',
+          hintText: hintText,
           hintStyle: TextStyle(
             color: MyColors.searchHintText,
             fontSize: 11.0.sp,

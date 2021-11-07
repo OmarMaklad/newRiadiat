@@ -4,8 +4,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:localize_and_translate/localize_and_translate.dart';
 import 'package:riadiat/app_route.dart';
 import 'package:riadiat/bottom_navigation_bar/cubit/layout_cubit.dart';
+import 'package:riadiat/constants/my_color.dart';
 import 'package:riadiat/constants/strings.dart';
-
+import 'package:riadiat/cubit_glabel/cubit_images.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -38,16 +39,20 @@ class MyApp extends StatelessWidget {
         BlocProvider(
           create: (BuildContext context) => LayoutCubit(),
         ),
+        BlocProvider(
+          create: (BuildContext context) => ImageCubit(),
+        ),
       ],
       child: ScreenUtilInit(
         designSize: Size(360, 690),
         builder: () => MaterialApp(
+          color: MyColors.meanColor,
           debugShowCheckedModeBanner: false,
           title: 'Riadiat',
           theme: ThemeData(
             primarySwatch: Colors.blue,
           ),
-          initialRoute: bottomNavigation,
+          initialRoute: onBoardingScreen,
           onGenerateRoute: appRoute!.generateRoute,
           localizationsDelegates:
               translator.delegates, // Android + iOS Delegates

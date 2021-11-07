@@ -10,8 +10,7 @@ import 'package:riadiat/features/main_screen/widget/custom_gird_view.dart';
 import 'package:riadiat/features/main_screen/widget/custom_join_network.dart';
 import 'package:riadiat/features/main_screen/widget/custom_my_session.dart';
 import 'package:riadiat/features/main_screen/widget/custom_scroll_acadmy.dart';
-import 'package:riadiat/features/main_screen/widget/custom_search_form.dart';
-import 'package:riadiat/features/my_course_screen/my_course_screen.dart';
+import 'package:riadiat/features/widgets/custom_search_header.dart';
 import 'package:riadiat/features/widgets/custom_title_row.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -21,10 +20,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'رياديات',
-          style: TextStyle(color: Colors.black),
-        ),
+        title: Image(
+            width: 200.0.w,
+            height: 35.0.h,
+            image: AssetImage('assets/images/logo.png')),
         centerTitle: true,
         backgroundColor: Colors.white,
         elevation: 0,
@@ -34,7 +33,30 @@ class HomeScreen extends StatelessWidget {
           width: double.infinity,
           child: Column(
             children: [
-              searchingHeader(context),
+              searchingHeader(
+                context: context,
+                onTapRight: () {
+                  Navigator.pushNamed(context, notificationScreen);
+                },
+                iconsRight: Icon(
+                  Icons.wallpaper,
+                  size: 30,
+                ),
+                hintText: "ابحثى عن دورات تدريبيه رائدات اعمال",
+                onChange: (value) {
+                  print(value);
+                },
+                onPressed: () {
+                  Navigator.pushNamed(context, searchScreen);
+                },
+                onTapLeft: () {
+                  print('go to training');
+                },
+                iconLeft: Icon(
+                  Icons.play_circle_outline,
+                  size: 30,
+                ),
+              ),
               SizedBox(
                 height: 20.h,
               ),
@@ -92,7 +114,7 @@ class HomeScreen extends StatelessWidget {
                 title: "دورات فى المقر",
                 showAll: "عرض الكل",
                 onTap: () {
-                  print('show all');
+                  Navigator.pushNamed(context, specializedAcademyScreen);
                 },
               ),
               SizedBox(
@@ -167,46 +189,6 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
-      ),
-    );
-  }
-
-  Widget searchingHeader(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 20.w),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          GestureDetector(
-            onTap: () {
-              print('go to notification');
-            },
-            child: Icon(
-              Icons.wallpaper,
-              size: 30,
-            ),
-          ),
-          SizedBox(
-            width: 10.w,
-          ),
-          SearchFormField(
-            onPressSearch: () {
-              print('working');
-            },
-          ),
-          SizedBox(
-            width: 10.w,
-          ),
-          GestureDetector(
-            onTap: () {
-              print('go to training');
-            },
-            child: Icon(
-              Icons.play_circle_outline,
-              size: 30,
-            ),
-          ),
-        ],
       ),
     );
   }
