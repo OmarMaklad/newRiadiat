@@ -6,7 +6,7 @@ import 'package:riadiat/constants/my_color.dart';
 import 'package:riadiat/features/service_provider_screen/widget/custom_text.dart';
 import 'package:riadiat/features/service_provider_screen/widget/cutom_bottom.dart';
 import 'package:riadiat/features/widgets/custom_text_form_field.dart';
-import 'package:riadiat/features/widgets/custom_title_row.dart';
+
 
 class WorkDetailsScreen extends StatelessWidget {
   const WorkDetailsScreen({Key? key}) : super(key: key);
