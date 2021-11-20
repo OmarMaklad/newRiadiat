@@ -5,6 +5,7 @@ import 'package:riadiat/bottom_navigation_bar/cubit/layout_states.dart';
 import 'package:riadiat/features/main_screen/home_screen.dart';
 import 'package:riadiat/features/message_screen/message_screen.dart';
 import 'package:riadiat/features/profile_screen/profile_screen.dart';
+import 'package:riadiat/features/service_provider_screen/service_provider_screen.dart';
 
 class LayoutCubit extends Cubit<RiadiatLayoutStates> {
   LayoutCubit() : super(RiadiatInitialLayout());
@@ -19,6 +20,10 @@ class LayoutCubit extends Cubit<RiadiatLayoutStates> {
       label: "القائمه",
     ),
     BottomNavigationBarItem(
+      icon: Icon(Icons.volunteer_activism_outlined),
+      label: "مقدمي الخدمات",
+    ),
+    BottomNavigationBarItem(
       icon: Icon(Icons.messenger_outline),
       label: "الرسائل",
     ),
@@ -30,6 +35,7 @@ class LayoutCubit extends Cubit<RiadiatLayoutStates> {
 
   List<Widget> screens = [
     HomeScreen(),
+    ServiceProviderScreen(),
     MessageScreen(),
     ProfileScreen(),
   ];

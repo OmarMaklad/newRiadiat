@@ -31,7 +31,16 @@ import 'package:riadiat/features/private_academy_screen/private_academy_screen.d
 import 'package:riadiat/features/profile_screen/profile_screen.dart';
 import 'package:riadiat/features/profile_screen/personal_account_screen/personal_account_screen.dart';
 import 'package:riadiat/features/search_screen/search_screen.dart';
+import 'package:riadiat/features/service_provider_screen/service_provider_screen.dart';
 import 'package:riadiat/features/specialized_academy/specialized_academy.dart';
+
+import 'features/service_provider_screen/inner_screens/add_service_screen.dart';
+import 'features/service_provider_screen/inner_screens/all_services_providers_screen.dart';
+import 'features/service_provider_screen/inner_screens/all_services_screen.dart';
+import 'features/service_provider_screen/inner_screens/browse_projects_screen.dart';
+import 'features/service_provider_screen/inner_screens/service_provider_profile_screen.dart';
+import 'features/service_provider_screen/inner_screens/service_subscription_screen.dart';
+import 'features/service_provider_screen/inner_screens/work_details_screen.dart';
 
 class AppRoute {
   Route? generateRoute(RouteSettings settings) {
@@ -159,6 +168,38 @@ class AppRoute {
       case chatScreen:
         return MaterialPageRoute(
           builder: (_) => ChatScreen(),
+        );
+      case serviceProviderScreen:
+        return MaterialPageRoute(
+          builder: (_) => ServiceProviderScreen(),
+        );
+      case allServicesScreen:
+        return MaterialPageRoute(
+          builder: (_) => AllServicesScreen(),
+        );
+        case browseProjectsScreen:
+        return MaterialPageRoute(
+          builder: (_) => BrowseProjectsScreen(),
+        );
+        case serviceProviderProfileScreen:
+        return MaterialPageRoute(
+          builder: (_) => ServiceProviderProfileScreen(),
+        );
+        case workDetailsScreen:
+        return MaterialPageRoute(
+          builder: (_) => WorkDetailsScreen(),
+        );
+        case serviceSubscriptionScreen:
+        return MaterialPageRoute(
+          builder: (_) => ServiceSubscriptionScreen(),
+        );
+        case allServicesProviderScreen:
+        return MaterialPageRoute(
+          builder: (_) => AllServicesProviderScreen(),
+        );
+        case addServiceScreen:
+        return MaterialPageRoute(
+          builder: (_) => AddServiceScreen(),
         );
     }
   }
