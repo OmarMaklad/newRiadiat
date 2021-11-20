@@ -16,7 +16,8 @@ class SearchScreen extends StatefulWidget {
   State<SearchScreen> createState() => _SearchScreenState();
 }
 
-class _SearchScreenState extends State<SearchScreen> with SingleTickerProviderStateMixin {
+class _SearchScreenState extends State<SearchScreen>
+    with SingleTickerProviderStateMixin {
   TabController? _tabController;
 
   @override
@@ -24,11 +25,10 @@ class _SearchScreenState extends State<SearchScreen> with SingleTickerProviderSt
     _tabController = new TabController(length: 3, vsync: this);
     super.initState();
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       body: SafeArea(
         child: SingleChildScrollView(
           child: Container(
@@ -61,7 +61,7 @@ class _SearchScreenState extends State<SearchScreen> with SingleTickerProviderSt
                         print('go to training');
                       },
                       iconLeft: Icon(
-                        Icons.drag_handle_sharp,
+                        Icons.tune_outlined,
                         size: 30,
                       ),
                     ),
@@ -82,21 +82,21 @@ class _SearchScreenState extends State<SearchScreen> with SingleTickerProviderSt
                       labelPadding: EdgeInsets.only(left: 10, right: 20),
                       tabs: [
                         Container(
-                          width : 93.0.w,
+                          width: 93.0.w,
                           child: Text(
                             'الكل',
                           ),
                         ),
                         Container(
-                          width :  93.0.w,
+                          width: 93.0.w,
                           child: Text(
                             'الاكاديميه',
                           ),
                         ),
                         Container(
-                          width :  93.0.w,
+                          width: 93.0.w,
                           child: Padding(
-                            padding:  EdgeInsets.only(right: 20.0.w),
+                            padding: EdgeInsets.only(right: 20.0.w),
                             child: Text(
                               'مدربين',
                             ),
@@ -105,7 +105,9 @@ class _SearchScreenState extends State<SearchScreen> with SingleTickerProviderSt
                       ],
                     ),
                   ),
-                  SizedBox(height: 20.0.h,),
+                  SizedBox(
+                    height: 20.0.h,
+                  ),
                   Expanded(
                     child: TabBarView(
                       controller: _tabController,

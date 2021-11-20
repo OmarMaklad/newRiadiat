@@ -31,3 +31,6 @@ const designationPasswordScreen = 'designation_password_screen';
 const onBoardingScreen = 'on_boarding_screen';
 const notificationScreen = 'notification_screen';
 const chatScreen = 'chat_screen';
+const subscribeAcademy = 'subscribe_academy';
+const paymentWayScreen = 'payment_way_screen';
+const serviceProviderScreen = 'services_provider_screen';

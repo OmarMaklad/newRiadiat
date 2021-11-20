@@ -10,6 +10,7 @@ import 'package:riadiat/features/auth/verification_code_screen/verification_code
 import 'package:riadiat/features/message_screen/chat_screen.dart';
 import 'package:riadiat/features/notification_setting/notification_screen.dart';
 import 'package:riadiat/features/on_boarding_screen/on_boarding_screen.dart';
+import 'package:riadiat/features/payment_way_screen/payment_way_screen.dart';
 import 'package:riadiat/features/profile_screen/adding_new_card_screen/adding_new_card_screen.dart';
 import 'package:riadiat/features/profile_screen/edit_or_delete_card_screen/edit_or_delete_card_screen.dart';
 import 'package:riadiat/features/profile_screen/edit_or_delete_card_screen/edit_or_delete_code_screen.dart';
@@ -31,7 +32,9 @@ import 'package:riadiat/features/private_academy_screen/private_academy_screen.d
 import 'package:riadiat/features/profile_screen/profile_screen.dart';
 import 'package:riadiat/features/profile_screen/personal_account_screen/personal_account_screen.dart';
 import 'package:riadiat/features/search_screen/search_screen.dart';
+import 'package:riadiat/features/services_provider_screen/services_provider_screen.dart';
 import 'package:riadiat/features/specialized_academy/specialized_academy.dart';
+import 'package:riadiat/features/subscribe_academy/subscribe_academy.dart';
 
 class AppRoute {
   Route? generateRoute(RouteSettings settings) {
@@ -159,6 +162,18 @@ class AppRoute {
       case chatScreen:
         return MaterialPageRoute(
           builder: (_) => ChatScreen(),
+        );
+      case subscribeAcademy:
+        return MaterialPageRoute(
+          builder: (_) => SubscribeAcademy(),
+        );
+      case paymentWayScreen:
+        return MaterialPageRoute(
+          builder: (_) => PaymentWayScreen(),
+        );
+      case serviceProviderScreen:
+        return MaterialPageRoute(
+          builder: (_) => ServiceProviderScreen(),
         );
     }
   }

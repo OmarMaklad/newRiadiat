@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                   Navigator.pushNamed(context, searchScreen);
                 },
                 onTapLeft: () {
-                  print('go to training');
+                 Navigator.pushNamed(context, serviceProviderScreen);
                 },
                 iconLeft: Icon(
                   Icons.play_circle_outline,

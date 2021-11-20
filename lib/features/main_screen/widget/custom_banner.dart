@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:riadiat/constants/my_color.dart';
+import 'package:riadiat/constants/strings.dart';
 
 Widget customBanner(BuildContext context) {
   return Container(
@@ -68,7 +69,7 @@ Widget customBanner(BuildContext context) {
 Widget customButtonSubscribe({BuildContext? context}) {
   return GestureDetector(
     onTap: () {
-      print('go to subscribe ');
+       Navigator.pushNamed(context!, subscribeAcademy);
     },
     child: Container(
       width: 110.w,

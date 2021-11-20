@@ -44,4 +44,6 @@ class MyColors {
   static const Color dotIndicator = Color(0xffD8D8D8);
   static const Color bgNotifications = Color(0xffE8F8F7);
   static const Color borderUnderChat = Color(0xffF0F0FB);
+  static const Color borderPaymentWay = Color(0xffDDDDDD);
+  static const Color bgCoupon = Color(0xffCDD7D8);
 }
