@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339bde1-175b-44ce-b867-232c32bb7008" name="Default Changelist" comment="up">
+    <list default="true" id="9339bde1-175b-44ce-b867-232c32bb7008" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/assets/images/undraw_Empty_re_opql.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/features/service_provider_screen/inner_screens/add_service_screen.dart" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/features/service_provider_screen/inner_screens/all_services_providers_screen.dart" afterDir="false" />
@@ -1203,7 +1203,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="up" />
-    <option name="LAST_COMMIT_MESSAGE" value="up" />
+    <MESSAGE value="service provider screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="service provider screen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="193" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636486331749">
@@ -1219,10 +1220,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="497" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1636490011583" />
-    <state x="642" y="240" width="640" height="569" key="#main.dart" timestamp="1637419500992">
+    <state x="642" y="240" width="640" height="569" key="#main.dart" timestamp="1637420240496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="642" y="240" key="#main.dart/0.0.1920.1040@0.0.1920.1040" timestamp="1637419500992" />
+    <state x="642" y="240" key="#main.dart/0.0.1920.1040@0.0.1920.1040" timestamp="1637420240496" />
     <state x="642" y="272" width="640" height="569" key="#main.dart/0.30.1920.1050@0.30.1920.1050" timestamp="1636249689230" />
     <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1637418741668">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -1232,6 +1233,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="773" y="303" width="364" height="506" key="AndroidProcessChooserDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1636118888863" />
+    <state x="310" y="85" key="CommitChangelistDialog2" timestamp="1637420318108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="310" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1637420318108" />
     <state x="100" y="130" width="1720" height="850" key="DiffContextDialog" timestamp="1634667800672">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -1241,25 +1246,25 @@
     </state>
     <state x="511" y="123" width="725" height="483" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1636734215580" />
     <state x="511" y="154" width="424" height="487" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1634490327517" />
-    <state width="1462" height="202" key="GridCell.Tab.0.bottom" timestamp="1637419838069">
+    <state width="1462" height="202" key="GridCell.Tab.0.bottom" timestamp="1637420237958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1462" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637419838069" />
+    <state width="1462" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637420237958" />
     <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1636245165021" />
-    <state width="1462" height="202" key="GridCell.Tab.0.center" timestamp="1637419838069">
+    <state width="1462" height="202" key="GridCell.Tab.0.center" timestamp="1637420237958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1462" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637419838069" />
+    <state width="1462" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637420237958" />
     <state width="1874" height="276" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1636245165019" />
-    <state width="1462" height="202" key="GridCell.Tab.0.left" timestamp="1637419838069">
+    <state width="1462" height="202" key="GridCell.Tab.0.left" timestamp="1637420237957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1462" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637419838069" />
+    <state width="1462" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637420237957" />
     <state width="1874" height="276" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1636245165018" />
-    <state width="1462" height="202" key="GridCell.Tab.0.right" timestamp="1637419838069">
+    <state width="1462" height="202" key="GridCell.Tab.0.right" timestamp="1637420237958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1462" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637419838069" />
+    <state width="1462" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637420237958" />
     <state width="1874" height="276" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1636245165020" />
     <state x="540" y="263" key="IDE.errors.dialog" timestamp="1636376885869">
       <screen x="0" y="0" width="1920" height="1040" />
