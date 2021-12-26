@@ -55,6 +55,15 @@ dependencies:
   #material icons
   material_design_icons_flutter: ^5.0.6295
 
+  # using expandable text
+  expandable_text: ^2.2.0
+
+  # using package rating
+  flutter_rating_bar: ^4.0.0
+
+  # video player
+  better_player: ^0.0.79
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

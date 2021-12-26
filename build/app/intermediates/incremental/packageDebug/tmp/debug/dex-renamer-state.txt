@@ -1,4 +1,7 @@
-#Sat Nov 20 14:58:44 EET 2021
+#Sun Dec 19 01:02:27 EET 2021
 base.0=/home/azaki/newRiadiat/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/home/azaki/newRiadiat/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex

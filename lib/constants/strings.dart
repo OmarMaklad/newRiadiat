@@ -34,3 +34,5 @@ const chatScreen = 'chat_screen';
 const subscribeAcademy = 'subscribe_academy';
 const paymentWayScreen = 'payment_way_screen';
 const serviceProviderScreen = 'services_provider_screen';
+const articleDetailScreen = 'article_detail_screen';
+const videoDetailScreen = "video_detail_screen";

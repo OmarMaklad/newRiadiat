@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:riadiat/bottom_navigation_bar/bottom_navigation_bar.dart';
 import 'package:riadiat/constants/strings.dart';
+import 'package:riadiat/features/article_detail_screen/article_detail_screen.dart';
 import 'package:riadiat/features/auth/designation_password_screen/designation_password_screen.dart';
 import 'package:riadiat/features/auth/forget_password_screen/forget_password_screen.dart';
 import 'package:riadiat/features/auth/login/view.dart';
@@ -35,6 +36,7 @@ import 'package:riadiat/features/search_screen/search_screen.dart';
 import 'package:riadiat/features/services_provider_screen/services_provider_screen.dart';
 import 'package:riadiat/features/specialized_academy/specialized_academy.dart';
 import 'package:riadiat/features/subscribe_academy/subscribe_academy.dart';
+import 'package:riadiat/features/video_detail_screen/video_detail_screen.dart';
 
 class AppRoute {
   Route? generateRoute(RouteSettings settings) {
@@ -174,6 +176,14 @@ class AppRoute {
       case serviceProviderScreen:
         return MaterialPageRoute(
           builder: (_) => ServiceProviderScreen(),
+        );
+      case articleDetailScreen:
+        return MaterialPageRoute(
+          builder: (_) => ArticleDetailScreen(),
+        );
+      case videoDetailScreen :
+        return MaterialPageRoute(
+          builder: (_) => VideoDetailScreen(),
         );
     }
   }

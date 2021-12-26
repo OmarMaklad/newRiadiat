@@ -46,4 +46,5 @@ class MyColors {
   static const Color borderUnderChat = Color(0xffF0F0FB);
   static const Color borderPaymentWay = Color(0xffDDDDDD);
   static const Color bgCoupon = Color(0xffCDD7D8);
+  static const Color bgDetailName = Color(0xff939393);
 }
